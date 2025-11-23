@@ -46,3 +46,17 @@ Step 4: Fusion → risk prediction shown
 
 
 6. Show the results/predictions on the user's dashboard and integrate "twilio" for notifications.
+
+
+
+
+
+
+
+Models:
+1️⃣ Logistic Regression (baseline)
+2️⃣ Naive Bayes
+3️⃣ SVM (try LinearSVC)
+4️⃣ Decision Tree
+5️⃣ KNN (optional: use only if dataset reduced)
+6️⃣ XGBoost (final model)
