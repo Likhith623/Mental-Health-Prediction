@@ -1,4 +1,6 @@
-1. Train Text Model (already documented)
+1. Train Text Model 
+Extract the features from the text with the bot by passing the user's query to the model
+by making a prediction.
 
 
 
