@@ -3,10 +3,13 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+backend/venv/
+backend/__pycache__/
 
 # Node
 node_modules/
 /frontend/node_modules/
+/frontend/build/
 
 # macOS
 .DS_Store
@@ -20,3 +23,19 @@ node_modules/
 
 # Vite output
 dist/
+
+# Models folder (exclude large model files)
+MODELS/
+/MODELS/
+
+# LaTeX files
+main.tex
+*.aux
+*.out
+*.toc
+*.log
+*.synctex.gz
+
+# Environment files
+.env
+backend/.env
